@@ -11,14 +11,13 @@
 	*23333，看看我大Java，😂*
 
 * Python解释器
-> 当我们编写Python代码时，我们得到的是一个包含Python代码的以.py为扩展名的文本文件。要运行代码，就需要Python解释器去执行.py文件。
-> 由于整个Python语言从规范到解释器都是开源的，所以理论上，只要水平够高，任何人都可以编写Python解释器来执行Python代码（当然难度很大）。事实上，确实存在多种Python解释器。
 
+	> 当我们编写Python代码时，我们得到的是一个包含Python代码的以.py为扩展名的文本文件。要运行代码，就需要Python解释器去执行.py文件。
+	> 由于整个Python语言从规范到解释器都是开源的，所以理论上，只要水平够高，任何人都可以编写Python解释器来执行Python代码（当然难度很大）。事实上，确实存在多种Python解释器。
 
 	* CPython 
 	
-		官方版本的解释器，这个解释器是用C语言开发的，所以叫CPython。在命令行下运行python就是启动CPython解释器。
-CPython是使用最广的Python解释器。
+		官方版本的解释器，这个解释器是用C语言开发的，所以叫CPython。在命令行下运行python就是启动CPython解释器。CPython是使用最广的Python解释器。
 	
 	* IPython
 	
