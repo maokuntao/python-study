@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 '''
-Created on 2017年11月14日
+Created on 2017年11月16日
 
 @author: taomk
 '''
-myName = input("请输入你的名字：")
-print("hello,", myName, ":)")
+your_name = input("请输入你的大名：")
+print("hello", your_name)
