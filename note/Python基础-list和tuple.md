@@ -6,7 +6,7 @@
 	
 Python内置的一种数据类型，它是一种有序的集合，可以随时添加和删除其中的元素。
 
-	>>> classmates = ['Kobe', 'Duncun', 'James'] #申明一个list
+	>>> classmates = ['Kobe', 'Duncun', 'James'] #定义一个list
 	>>> print(classmates)
 	['Kobe', 'Duncun', 'James']
 	
@@ -49,5 +49,32 @@ Python内置的一种数据类型，它是一种有序的集合，可以随时�
 ### tuple
 另一种有序列表叫**元组**：`tuple`。`tuple`和`list`非常类似，但是**tuple一旦初始化就不能修改**。
 
+	>>> classmates = ('Kobe', 'Duncun', 'James') #定义一个tuple
+	>>> print(classmates)
+	('Kobe', 'Duncun', 'James')
+	
+	>>> print("获取tuple的元素个数：", len(classmates))
+	获取tuple的元素个数： 3
+	
+	>>> print("通过索引（0-based）来访问tuple中元素：", classmates[0])
+	通过索引（0-based）来访问tuple中元素： Kobe
+	
+	>>> print("通过索引（0-based）来访问tuple中元素：", classmates[3]) 
+	IndexError: tuple index out of range
+	
+	>>> print("通过索引（0-based）来访问tuple中元素，获取最后一个元素：", classmates[-1])
+	通过索引（0-based）来访问tuple中元素，获取最后一个元素： James
+	
+	>>> print("通过索引（0-based）来访问tuple中元素：", classmates[-4]) 
+	IndexError: tuple index out of range
+	
+	>>> t1=(1)
+	>>> print("此时t1是一个数", t1)
+	此时t1是一个数 1
+	
+	>>> t2=(1,)
+	>>> print("此时t2是一个tuple", t2)
+	此时t2是一个tuple (1,)
+	
 
 	

@@ -5,7 +5,7 @@ Created on 2017年11月16日
 
 @author: taomk
 '''
-classmates = ['Kobe', 'Duncun', 'James'] #申明一个list
+classmates = ['Kobe', 'Duncun', 'James'] #定义一个list
 print(classmates)
 print("获取list的元素个数：", len(classmates))
 print("通过索引（0-based）来访问list中元素：", classmates[0])
